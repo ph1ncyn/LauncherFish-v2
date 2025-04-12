@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="LauncherFish_v2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d">
+
+    <Grid>
+        <!-- Основной контейнер -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20">
+            <!-- Изображение состояния подключения -->
+            <Image x:Name="MyImage"
+                   Width="50"
+                   Height="50"
+                   Stretch="Uniform"/>
+
+            <!-- Прогресс-бар загрузки -->
+            <winui:ProgressBar x:Name="DownloadProgressBar"
+                             Width="300"
+                             Maximum="100"
+                             Minimum="0"/>
+
+            <!-- Текст состояния -->
+            <TextBlock x:Name="StatusText"
+                       Text="Ожидание..."
+                       HorizontalAlignment="Center"
+                       FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LauncherFish-v2 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LauncherFish-v2 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
