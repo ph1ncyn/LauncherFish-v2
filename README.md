@@ -1,7 +1,7 @@
 <div align="center">
 <a href="http://phancyn.github.io/">
   <div>
-    <img src="img(don't open)/banner.png" alt="Warp" />
+    <img src="https://github.com/phancyn/Fish-Launcher-Public/blob/main/img(don't%20open)/banner.png?raw=true" alt="Warp" />
   </div>
 </a>
 
@@ -16,7 +16,7 @@
 &nbsp;
 &nbsp;
 &nbsp;
-<img src="img(don't open)/Step 1.gif">
+<img src="https://github.com/phancyn/Fish-Launcher-Public/blob/main/img(don't%20open)/Step%201.gif?raw=true">
 &nbsp;
 
 
